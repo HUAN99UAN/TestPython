@@ -22,3 +22,12 @@ while True:
             print(i)
         break
 
+# 法二：
+# 通过数学分析，最后获得的饮料数是总空瓶数整除2
+# while True:
+#     try:
+#         a = int(input())
+#         if a != 0:
+#             print(a // 2)
+#     except:
+#         break
