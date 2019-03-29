@@ -11,7 +11,7 @@ while True:
     except:
         break
 
-lstTuple = sorted(record.items(), key = lambda d:d[1], reverse=True)
+lstTuple = sorted(record.items(), key = lambda d:d[1], reverse=True) # 根据value倒序排序，.items()使返回的值还是字典
 
 count = 0
 for key in lstTuple:
@@ -23,8 +23,3 @@ for key in lstTuple:
     else:
         print(key[0].split()[0], key[0].split()[1], key[1])
 
-# 另一种接收多行输入——实现多次a+b
-# import sys
-# for line in sys.stdin:
-#     a = line.split()
-#     print(int(a[0]) + int(a[1]))

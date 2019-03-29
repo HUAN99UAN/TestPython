@@ -13,7 +13,7 @@ while True:
             last = 0
             # 前面n - 1轮
             for i in range(2, n+1):
-                last = (last + k) % i
+                last = (last + k) % i # 不好理解？！
                 print(last)
             return last
         print(last(n, 3))
