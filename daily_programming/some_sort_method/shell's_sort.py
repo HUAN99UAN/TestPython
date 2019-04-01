@@ -13,7 +13,6 @@ def shell_sort(aList):
         print('排序中间过程：', aList)
         step = step //2
 
-
 if __name__ == '__main__':
     # li = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     li = [49, 38, 65, 97, 76, 13, 27, 48, 55, 4]

@@ -11,7 +11,7 @@ def bubble_sort(aList):
 
 #  改进：设立tag标记一趟冒泡是否有交换，没有说明已经有序！
 def bubble_sort2(aList):
-    tag = 0
+    # tag = 0
     n = len(aList)
     for i in range(0, n-1):
         tag = 0

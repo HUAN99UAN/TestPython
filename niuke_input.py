@@ -34,3 +34,6 @@ while True:
 # print(int(input(),16)) # int() 函数用于将一个字符串或数字转换为整型。
 
 # print(' '.join(str(i) for i in lst)) # 将字符串拼接起来，中间空格分开
+
+# a=list(range(3, 0, -1)) # 逆序的range
+# 得到：[3, 2, 1]
