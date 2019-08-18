@@ -1,7 +1,7 @@
 '''
 快速排序
 '''
-def partition(aList, left, right):
+def partition(aList, left, right): # 找分割数值，将数组分为两部分
     key = aList[left]
     low = left
     high = right

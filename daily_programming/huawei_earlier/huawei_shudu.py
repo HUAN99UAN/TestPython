@@ -16,7 +16,6 @@ def isOk(mat, i, j, num):  # 判断填入数字是否合法
                 return False
     return True
 
-
 def dfs(mat, i, j):  # 深度优先遍历
     if i == 9:  # 所有行已遍历完，则结束
         return mat
